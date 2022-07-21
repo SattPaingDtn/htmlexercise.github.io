@@ -5,8 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Exercise</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            height: 50px;
+            display: flex;
+            background-color: black;
+        }
+        .left{
+            width: 50%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            font-size: 25px;
+            color: red;
+        }
+        .right{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+        }
+        .nav-list{
+            display: flex;
+        }
+        .nav-item{
+            background-color: red;
+            padding: 5px 10px;
+            margin: 0px 10px;
+        }
+        .nav-item a{
+            text-decoration: none;
+            color: black;
+        }
+        .hero{
+            height: 500px;
+            background-color: skyblue;
+        }
+        .about-coffee{
+            height: 300px;
+            display: flex;
+        }
+        .image-box{
+            width: 40%;
+            background-color: grey;
+            height: 300px;
+        }
+        .text-box{
+            width: 60%;
+            height: 300px;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Exercise</h1>
+    <div class="navbar">
+        <div class="left">Coffee Shop</div>
+        <div class="right">
+            <div class="nav-list">
+                <div class="nav-item">
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">Shop</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">About</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero"></div>
+    <div class="content">
+        <h1 style="text-align: center;">Coffee Review</h1>
+        <div class="about-coffee">
+            <div class="image-box"></div>
+            <div class="text-box">
+                <h3>Americano</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates deleniti, reprehenderit, maiores laboriosam itaque cum veniam magnam obcaecati sequi vel minus, debitis sint earum? Praesentium atque sed cum a laborum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam ratione odio consequuntur quaerat saepe molestias veniam dolorem, voluptatibus, provident culpa accusantium, suscipit nulla inventore omnis maiores vero asperiores similique. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ut minus nulla natus corrupti quae placeat, soluta eum, iure aut ducimus voluptas obcaecati impedit quaerat nostrum repellendus esse maiores accusamus?</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
