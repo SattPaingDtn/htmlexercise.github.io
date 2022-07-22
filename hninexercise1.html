@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework1</title>
+    <style>
+        div{
+            display:flex;
+            align-items:center;
+            text-align: center;
+           
+            justify-content:center;
+        }
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Interests Survey form</h1>
+    <form>
+        <label for="fname">Enter Your Name:</label>
+        <input type="text" id="fname" name="fname" style="width:300px; height:15px"><br><br>
+        <label for="iname">Enter Your Deparment:</label>
+        <input type="text" id="fname" name="fname" style="width:300px; height:15px"><br><br>
+        <label for="message">Tell us a little youself:</label>
+        <textarea name="message" rows="8px" cols="20px"></textarea>
+    </form>
+    <div><p>Do you exercise at home?</p>
+    <label for="radio">Yes</label>
+    <input type="radio" id="radio">
+    <label for="radio2">No</label>
+    <input type="radio" id="radio2">
+    </div>
+    <p>How do you like to read about your favorite topics.</p>
+    <form action="http://google.co.in">
+    <input type="checkbox" id="box1" name="box1">
+    <label for="box1">Books</label>
+    <input type="checkbox" id="box2" name="box2">
+    <label for="box2">Online resources</label>
+    <input type="checkbox" id="box3" name="box3">
+    <label for="box3">Phone apps</label>
+    <input type="checkbox" id="box4" name="box4">
+    <label for="box4">Magazines</label><br><br>
+    <label for="movie">What genre of movies do you like?</label> 
+    <select id="movie" name="movie">
+     <option value="comedy">comedy</option>  
+     <option value="romance">romance</option>
+     <option value="thriller">thriller</option>
+     <option value="horror">horror</option> 
+     <option value="biopic">biopic</option>
+    </select><br><br>
+    <input type="submit" value="submit from">
+</form>
+</body>
+</html>
